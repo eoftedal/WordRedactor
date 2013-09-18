@@ -1,5 +1,6 @@
 Command line utility for redacting Word documents on Mac OS X. Will replace highlighted text with garbage.
 
+**Pictures must be redacted manually**
 
 ### Installation
 
