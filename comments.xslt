@@ -6,6 +6,7 @@
 
 
 
+<!-- copy nodes -->
  <xsl:template match="node()|@*">
      <xsl:copy>
        <xsl:apply-templates select="node()|@*"/>
@@ -13,8 +14,8 @@
  </xsl:template>
 
 
+<!-- delete comments -->
  <xsl:template match="w:comment">
- 	<!-- delete -->
  </xsl:template>
 
 

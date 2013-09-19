@@ -12,6 +12,8 @@ unzip -o -q "$CURDIR/$1"
 
 echo "Removing text and swithing to black background..."
 xsltproc $BASEDIR/readact.xslt "word/document.xml" > "word/document2.xml"
+
+
 rm "word/document.xml"
 mv "word/document2.xml" "word/document.xml"
 
